@@ -1,0 +1,40 @@
+.page-header h1{
+    font-family: 'Fascinate Inline', serif;
+    font-size: 4em;
+}
+
+.page-header ul {
+    font-family: 'Ranga', serif;
+    font-size: 1.5em;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url(../img/bark.jpg);
+}
+
+
+.jumbotron h1 {
+    font-family: 'Ranga', serif;
+    font-weight: bold;
+}
+
+.jumbotron h2 {
+    font-family: 'Pacifico', serif;
+    font-weight: bold;
+}
+
+.col-md-6 h2 {
+    text-align: center;
+    font-family: 'Ranga', serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.col-md-6 p {
+    font-size: 1.5em;
+    padding-top: 30px;
+}
+.btn-primary {
+    margin-top: 40px;
+}
