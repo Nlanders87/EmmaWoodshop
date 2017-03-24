@@ -4,9 +4,12 @@ var nameInput = document.getElementById('name');
 document.querySelector('form.contact-info').addEventListener('submit', function (e) {
     e.preventDefault();
     console.log(nameInput.value);
+<<<<<<< HEAD
     document.getElementById('name').val('');
     
 
+=======
+>>>>>>> 710d2f669238d79b79e05203a18788f6dbaeee48
 });
 
 
