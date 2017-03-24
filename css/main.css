@@ -10,7 +10,7 @@
 
 .jumbotron {
     text-align: center;
-    background: url(../img/bark.jpg) center;
+    background: url(../img/bark.jpg);
     
 }
 
@@ -41,4 +41,12 @@
 
 .btn-primary {
     margin-top: 40px;
+}
+
+.modal-dialog {
+    width:600px;
+}
+
+.thumbnail {
+    margin-bottom:6px;
 }
