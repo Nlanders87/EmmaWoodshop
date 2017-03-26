@@ -1,9 +1,10 @@
-.page-header h1{
+.navbar-brand {
     font-family: 'Fascinate Inline', serif;
-    font-size: 4em;
+    font-size: 4em !important;
+    color: #000 !important;
 }
 
-.page-header ul {
+.navbar-nav {
     font-family: 'Ranga', serif;
     font-size: 1.5em;
 }
@@ -98,8 +99,11 @@
     text-align: center;
 }
 
-.nav-pills > li.active > a {
+.navbar-nav > li.active > a {
     background-color: #2f4f4f !important;
+    border-radius: 4px;
+    color: #fff !important;
+    border-color: #000;
 }
 
 .btn-primary {
@@ -107,6 +111,33 @@
     border-color: #000 !important;
 }
 
- a {
-    color: #000 ;
+
+
+.form-group {
+    font-family: 'Abel', serif;
+    font-size: 20px;
+}
+
+.contact-text h2 {
+    font-family: 'Ranga', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact-text p {
+    font-family: 'Abel', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+body {
+    background:  !important;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
 }
