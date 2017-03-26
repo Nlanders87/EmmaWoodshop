@@ -1,34 +1,33 @@
 //Logs out contact form entry to the console until server-side functionality can be added
 
 var nameInput = document.getElementById('name');
-document.querySelector('form.contact-info').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.querySelector('form.contact-info').addEventListener('submit', function (i) {
+    i.preventDefault();
     console.log(nameInput.value);
 
-    document.getElementById('name').val('');
     
 });
 
 
 
 var mailInput = document.getElementById('mail');
-document.querySelector('form.contact-info').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.querySelector('form.contact-info').addEventListener('submit', function (i) {
+    i.preventDefault();
     console.log(mailInput.value);
 });
 
 
 
 var telInput = document.getElementById('telephone');
-document.querySelector('form.contact-info').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.querySelector('form.contact-info').addEventListener('submit', function (i) {
+    i.preventDefault();
     console.log(telInput.value);
 });
 
 
 
 var inquiryInput = document.getElementById('user-inquiries');
-document.querySelector('form.contact-info').addEventListener('submit', function (e) {
-    e.preventDefault();
+document.querySelector('form.contact-info').addEventListener('submit', function (i) {
+    i.preventDefault();
     console.log(inquiryInput.value);
 });

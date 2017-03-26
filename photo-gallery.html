@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/main.css" />
        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Pacifico|Ranga" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Pacifico|Ranga|Abel" rel="stylesheet">  
         <meta name="description" content="E.M.M.A Woodshop website" />
         <meta name="author" content="Nathan Landers" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,22 +28,28 @@
       <!-- Begin Modal Photo Gallery -->
       <div class="container">
         <div class="row">
-          <h1 style="text-align:center; padding-bottom: 10px; font-family:'Ranga', serif;">Products Available by Request</h1>
-          <p style="text-align: center; padding-bottom: 10px; font-size: 20px;">These pieces represent a small portion of the work being done in the EMMA Woodshop. Because we strive for personality and uniqueness in every piece,
+          <span class="gallery">
+          <h1>Products Available by Request</h1>
+          <p>These pieces represent a small portion of the work being done in the EMMA Woodshop. Because we strive for personality and uniqueness in every piece,
             we primarily build by request only. If you see anything you like feel free to <a href="contact.html">Contact me</a> to discuss further. </p>
             <!-- Links images to modal window -->
             <div class="col-lg-3 col-md-4 col-xs-6"><a title="Adirondack Chair" caption="Made with Cedar or Poplar, and outdoor fasteners. Can withstand all types of weather." href="#">
-            <img class="thumbnail img-responsive" src="img/adirondack2.jpg"></a></div>
+            <img class="thumbnail img-responsive" src="img/adirondack2.jpg" alt="Adirondack Chair"></a></div>
             <div class="col-lg-3 col-md-4 col-xs-6"><a title="Decorative Wooden Box" caption="Wooden multi-use boxes. Multiple sizes and materials available upon request" href="#">
-            <img class="thumbnail img-responsive" src="img/compost.jpg"></a></div>
+            <img class="thumbnail img-responsive" src="img/compost.jpg" alt="Decorative Wooden Box"></a></div>
             <div class="col-lg-3 col-md-4 col-xs-6"><a title="Butcher Block Cutting Board" caption="Variety of sizes and designs. Hardwood construction for durability. Treated with Butcher's Block Oil Finish and single coat of conditioner." href="#">
-            <img class="thumbnail img-responsive" src="img/cutting-board.jpg"></a></div>
+            <img class="thumbnail img-responsive" src="img/cutting-board.jpg" alt="Butcher Block Cutting Board"></a></div>
             <div class="col-lg-3 col-md-4 col-xs-6"><a title="Sandbox Picnic Table" caption="Made with Cedar or Poplar and Treated Outdoor Fasteners. Can withstand all types of weather" href="#">
-            <img class="thumbnail img-responsive" src="img/sand-table-pg.jpg"></a></div>
-            <div class="col-lg-3 col-md-4 col-xs-6"><a title="Leaning Wall Bookshelf" caption="Bookshelf show made of Quarter-sawn Red Oak and Walnut. Most wood species available upon request." href="#">
-            <img class="thumbnail img-responsive" src="img/bookshelf2.jpg"></a></div>
+            <img class="thumbnail img-responsive" src="img/sand-table-pg.jpg" alt="Sandbox Picnic Table"></a></div>
+            <div class="col-lg-3 col-md-4 col-xs-6"><a title="Leaning Wall Bookshelf" caption="Made of Quarter-sawn Red Oak and Walnut. Most wood species available upon request." href="#">
+            <img class="thumbnail img-responsive" src="img/bookshelf2.jpg" alt="Leaning Wall Bookshelf"></a></div>
             <div class="col-lg-3 col-md-4 col-xs-6"><a title="Hanging Wall Organizer" caption="Fully customizable or pre-made versions available. Made from mostly milled stock or re-purposed barn stock." href="#">
-            <img class="thumbnail img-responsive" src="img/organizer2.jpg"></a></div>
+            <img class="thumbnail img-responsive" src="img/organizer2.jpg" alt="Hanging Wall Organizer"></a></div>
+            <div class="col-lg-3 col-md-4 col-xs-6"><a title="Hanging Guitar Hook" caption="" href="#">
+            <img class="thumbnail img-responsive" src="img/guitar.jpg" alt="Hanging Guitar Hook"></a></div>
+            <div class="col-lg-3 col-md-4 col-xs-6"><a title="Hanging Wall Shelf" caption="" href="#">
+            <img class="thumbnail img-responsive" src="img/hanging-shelf2.jpg" alt="Hanging Wall Shelf"></a></div>
+            </span>
         </div>
       </div>
       <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
@@ -57,7 +63,7 @@
         <div class="modal-body"> 
         </div>
         <!-- Calls function to append caption body of modal window -->
-        <p class="modal-caption" style="text-align: center; font-size: 20px;">Text</p>
+        <p class="modal-caption">Text</p>
         <div class="modal-footer">
           <!-- Button to close modal window -->
           <button class="btn btn-default" data-dismiss="modal">Close</button>

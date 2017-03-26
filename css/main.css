@@ -11,7 +11,11 @@
 .jumbotron {
     text-align: center;
     background: url(../img/bark.jpg);
-    
+}
+
+.jumbotron a {
+    font-family: 'Ranga', serif;
+    font-size: 30px;
 }
 
 
@@ -50,36 +54,59 @@
 .thumbnail {
     margin-bottom:6px;
 }
-<<<<<<< HEAD
 
-.xs-collapse {
-  display: none;
-  visibility: hidden;
-}
-
-.xs-toggle .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-.xs-toggle .icon-bar + .icon-bar {
-  margin-top: 4px;
+.gallery h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Ranga', serif;
 }
 
-.btn-default.xs-toggle .icon-bar {
-  background-color: #888;
+.gallery p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Abel', serif;
 }
 
-@media (min-width: 769px) {
-  .xs-toggle {
-    display: none;
-    visibility: hidden;
-  }
-  .xs-collapse {
-    display: block;
-    visibility: visible;
-  }
+.modal-caption {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Abel', serif;
 }
-=======
->>>>>>> 710d2f669238d79b79e05203a18788f6dbaeee48
+
+
+.img-rounded {
+    margin: 0 auto;
+}
+
+.home-title h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.home-title p {
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Abel', serif;
+}
+
+.home-text p{
+    font-family: 'Abel', serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.nav-pills > li.active > a {
+    background-color: #2f4f4f !important;
+}
+
+.btn-primary {
+    background-color: #2f4f4f !important;
+    border-color: #000 !important;
+}
+
+ a {
+    color: #000 ;
+}
