@@ -1,3 +1,7 @@
+/**********
+Navbar Styles
+***********/
+
 .navbar-brand {
     font-family: 'Fascinate Inline', serif;
     font-size: 4em !important;
@@ -8,6 +12,17 @@
     font-family: 'Ranga', serif;
     font-size: 1.5em;
 }
+
+.navbar-nav > li.active > a {
+    background-color: #2f4f4f !important;
+    border-radius: 4px;
+    color: #fff !important;
+    border-color: #000;
+}
+
+/**********
+Jumbotron Styles
+***********/
 
 .jumbotron {
     text-align: center;
@@ -31,6 +46,41 @@
     font-weight: bold;
     color: #fff;
 }
+
+.img-rounded {
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #2f4f4f !important;
+    border-color: #000 !important;
+}
+
+/*********
+Home Page Styles
+**********/
+
+.home-title h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.home-title p {
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Abel', serif;
+}
+
+.home-text p{
+    font-family: 'Abel', serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+/**********
+Photo Gallery Styles
+***********/
 
 .col-md-6 h2 {
     text-align: center;
@@ -76,42 +126,9 @@
     font-family: 'Abel', serif;
 }
 
-
-.img-rounded {
-    margin: 0 auto;
-}
-
-.home-title h2 {
-    font-size: 2em;
-    text-align: center;
-}
-
-.home-title p {
-    font-size: 18px;
-    padding-top: 15px;
-    text-align: center;
-    font-family: 'Abel', serif;
-}
-
-.home-text p{
-    font-family: 'Abel', serif;
-    font-size: 23px;
-    text-align: center;
-}
-
-.navbar-nav > li.active > a {
-    background-color: #2f4f4f !important;
-    border-radius: 4px;
-    color: #fff !important;
-    border-color: #000;
-}
-
-.btn-primary {
-    background-color: #2f4f4f !important;
-    border-color: #000 !important;
-}
-
-
+/**********
+Contact Page Styles
+***********/
 
 .form-group {
     font-family: 'Abel', serif;
@@ -130,11 +147,9 @@
     text-align: center;
 }
 
-body {
-    background:  !important;
-}
-
-
+/**********
+Media Queries
+***********/
 
 @media screen and (max-width: 991px) {
     .navbar-brand {
