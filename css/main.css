@@ -147,6 +147,14 @@ Contact Page Styles
     text-align: center;
 }
 
+ .btn-default {
+    background-color: #2f4f4f !important;
+    border-color: #000 !important;
+    font-family: 'Ranga', serif;
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
 /**********
 Media Queries
 ***********/
@@ -156,3 +164,10 @@ Media Queries
         font-size: 1.5em !important;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contact-info {
+        font-size: 1.5em !important;
+    }
+}
+
