@@ -1,4 +1,25 @@
 /**********
+General Styles
+***********/
+
+body {
+    background:  #FFEFD5 !important;
+}
+
+.navbar-default {
+    background: #FFEBCD !important;
+}
+
+#carousel-example-generic {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  border:solid 10px #000;
+}
+
+
+
+/**********
 Navbar Styles
 ***********/
 
@@ -78,10 +99,6 @@ Home Page Styles
     text-align: center;
 }
 
-/**********
-Photo Gallery Styles
-***********/
-
 .col-md-6 h2 {
     text-align: center;
     font-family: 'Ranga', serif;
@@ -89,14 +106,36 @@ Photo Gallery Styles
     font-size: 3em;
 }
 
-.col-md-6 p {
-    font-size: 1.5em;
-    padding-top: 30px;
+.col-md-6 h3 {
+    text-align: center;
+    font-family: 'Ranga', serif;
+    font-size: 30px;
 }
 
 .btn-primary {
     margin-top: 40px;
 }
+
+.current-project h2{
+    text-align: center;
+    font-family: 'Ranga', serif;
+    font-size: 3em;
+    font-weight: bold;
+    border-bottom: 2px solid #2f4f4f;
+}
+
+.featured-text p {
+    font-family: 'Abel', serif;
+    font-size: 23px;
+    text-align: center; 
+    margin-top: 25%;
+}
+
+
+/**********
+Photo Gallery Styles
+***********/
+
 
 .modal-dialog {
     width:600px;
@@ -154,6 +193,22 @@ Contact Page Styles
     font-size: 20px !important;
     color: #fff !important;
 }
+
+/**********
+Media Queries
+***********/
+.footer {
+    
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FFEBCD !important;
+    border:1px solid #e7e7e7 !important;
+    border-radius: 4px;
+}
+
+
+
 
 /**********
 Media Queries
