@@ -201,7 +201,7 @@ Contact Page Styles
 }
 
 /**********
-Media Queries
+Footer Styles
 ***********/
 .footer {
     bottom: 0;
@@ -211,8 +211,6 @@ Media Queries
     border:1px solid #e7e7e7 !important;
     border-radius: 4px;
 }
-
-
 
 
 /**********
