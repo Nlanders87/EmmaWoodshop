@@ -41,6 +41,11 @@ Navbar Styles
     border-color: #000;
 }
 
+.navbar-toggle {
+    background: transparent;
+}
+
+
 /**********
 Jumbotron Styles
 ***********/
@@ -228,6 +233,7 @@ Media Queries
         font-size: 20px;
         margin-top: 20px;
     }
+
 }
 
 
