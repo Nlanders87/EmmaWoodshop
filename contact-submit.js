@@ -36,7 +36,7 @@ document.querySelector('form.contact-info').addEventListener('submit', function 
 
 
 var methodInput = document.getElementById('optionsRadios1,optionsRadios2');
-document.querySelector('input[name="optionsRadios"').addEventListener('submit', function (i) {
+document.querySelector('input[name="optionsRadios"]').addEventListener('submit', function (i) {
     i.preventDefault();
     console.log(methodInput.value);
     $('input[type="radio"]').val('Email');

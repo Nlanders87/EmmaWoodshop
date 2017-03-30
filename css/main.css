@@ -15,6 +15,7 @@ body {
   height: auto;
   overflow: hidden;
   border:solid 10px #000;
+  margin-bottom: 50px;
 }
 
 
@@ -44,6 +45,7 @@ Navbar Styles
 .navbar-toggle {
     background: transparent;
 }
+
 
 
 /**********
@@ -81,6 +83,8 @@ Jumbotron Styles
     background-color: #2f4f4f !important;
     border-color: #000 !important;
 }
+
+
 
 /*********
 Home Page Styles
@@ -138,6 +142,7 @@ Home Page Styles
 }
 
 
+
 /**********
 Photo Gallery Styles
 ***********/
@@ -170,6 +175,8 @@ Photo Gallery Styles
     font-size: 20px;
     font-family: 'Abel', serif;
 }
+
+
 
 /**********
 Contact Page Styles
@@ -206,6 +213,8 @@ Contact Page Styles
     font-weight: 700 !important;
 }
 
+
+
 /**********
 Footer Styles
 ***********/
@@ -216,7 +225,10 @@ Footer Styles
     background-color: #FFEBCD !important;
     border:1px solid #e7e7e7 !important;
     border-radius: 4px;
+    position: relative !important;
+    margin-top: 30px;
 }
+
 
 
 /**********
