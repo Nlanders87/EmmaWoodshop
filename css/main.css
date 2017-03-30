@@ -200,6 +200,12 @@ Contact Page Styles
     color: #fff !important;
 }
 
+.radio label {
+    font-family: 'Abel', serif;
+    font-size: 18px;
+    font-weight: 700 !important;
+}
+
 /**********
 Footer Styles
 ***********/
