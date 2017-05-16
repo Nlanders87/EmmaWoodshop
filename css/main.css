@@ -18,6 +18,9 @@ body {
   margin-bottom: 50px;
 }
 
+a {
+    text-decoration: none;
+}
 
 
 /**********
@@ -191,12 +194,18 @@ Contact Page Styles
     font-family: 'Ranga', serif;
     font-size: 3em;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .contact-text p {
     font-family: 'Abel', serif;
     font-size: 20px;
     text-align: center;
+}
+
+.contact-text li {
+    font-family: 'Abel', serif;
+    font-size: 20px;
 }
 
  .btn-default {
@@ -213,6 +222,16 @@ Contact Page Styles
     font-weight: 700 !important;
 }
 
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.list-inline {
+    text-align: center;
+    text-decoration: none;
+}
 
 
 /**********
@@ -225,7 +244,6 @@ Footer Styles
     background-color: #FFEBCD !important;
     border:1px solid #e7e7e7 !important;
     border-radius: 4px;
-    
     margin-top: 30px;
 }
 
